@@ -18,7 +18,7 @@ export const LoginScreen = () => {
             <Formik
                 initialValues={{
                     nombreUsuario: '',
-                    contrasena: 'Muni@9876!!',
+                    contrasena: '',
                 }}
 
                 onSubmit={(values) => {
